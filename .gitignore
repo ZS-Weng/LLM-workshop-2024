@@ -1,3 +1,7 @@
+# Large Files
+*.bin
+*.pth
+
 # Slide files
 *.key
 

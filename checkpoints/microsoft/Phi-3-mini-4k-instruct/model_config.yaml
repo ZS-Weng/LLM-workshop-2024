@@ -1,0 +1,36 @@
+attention_logit_softcapping: null
+attention_scores_scalar: null
+bias: false
+block_size: 4096
+final_logit_softcapping: null
+gelu_approximate: none
+head_size: 96
+hf_config:
+  name: Phi-3-mini-4k-instruct
+  org: microsoft
+intermediate_size: 8192
+lm_head_bias: false
+mlp_class_name: LLaMAMLP
+n_embd: 3072
+n_expert: 0
+n_expert_per_token: 0
+n_head: 32
+n_layer: 32
+n_query_groups: 32
+name: Phi-3-mini-4k-instruct
+norm_class_name: RMSNorm
+norm_eps: 1.0e-05
+padded_vocab_size: 32064
+padding_multiple: 512
+parallel_residual: false
+post_attention_norm: false
+post_mlp_norm: false
+rope_adjustments: null
+rope_base: 10000
+rope_condense_ratio: 1
+rotary_percentage: 1.0
+scale_embeddings: false
+shared_attention_norm: false
+sliding_window_layer_placing: 1
+sliding_window_size: 2048
+vocab_size: 32000
